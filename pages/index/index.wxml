@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="background"></view>
+  <canvas canvas-id="gameboard" class="cvs" ></canvas>
+  <canvas canvas-id="upground" class="upground" bindtouchstart="gametouchstart" bindtouchmove="gametouchmove" bindtouchend="gametouchend"></canvas>
+</view>
+<view class="restart_btn" bindtap="restart">restart</view>
